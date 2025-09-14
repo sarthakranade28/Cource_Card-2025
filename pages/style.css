@@ -25,6 +25,7 @@ body {
     }
      .title{
         text-align: center;
+        color: rgb(106, 26, 12);
     }
     .card{
     border: 1px solid black;
@@ -53,8 +54,11 @@ body {
     height: 20px;
     
 }
-.image{
- 
-  height: 40px;
-}
-   
+
+  footer {
+      background: #011218;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
