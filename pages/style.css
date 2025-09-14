@@ -1,0 +1,60 @@
+body {
+      margin: 0;
+      background:white;
+      font-family: Arial, sans-serif;
+    }
+    nav {
+      background: #011218;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 40px;
+      font-weight: bold;
+      font-size: larger;
+    }
+    nav img {
+      margin-right: 50px;
+    }
+    .text {
+       margin-left: 80px;    }
+    #para {
+      color: rgb(60, 152, 60);
+    }
+     .title{
+        text-align: center;
+    }
+    .card{
+    border: 1px solid black;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    width:300px; 
+    padding: 30px 30px;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+.card-img{
+    height:64px;
+    width: 64px;
+}
+.card-title{
+    font-size:20px;
+    text-align: center;
+
+}
+.card-imgs{
+     height:100px;
+    width: 100px;
+}
+.img{
+    height: 20px;
+    
+}
+.image{
+ 
+  height: 40px;
+}
+   

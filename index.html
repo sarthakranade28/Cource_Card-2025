@@ -1,17 +1,152 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Document</title>
+    <title>Home Page</title>
+    <style>
+      #btn1{
+        background-color:orange;
+        padding: 5px 10px;
+        height: 40px;
+        width: 100px;
+        border: none;
+        transition: 0.5s;
+        border-radius: 50px 50px ;   
+      }
+      #btn2{
+        background-color: black;
+        color: white;
+        padding: 5px 10px;
+        height: 40px;
+        width: 100px;
+        border: none;
+        transition: 0.5s;
+        border-radius: 50px 50px ; 
+      }
+    </style>
 </head>
 <body>
-<link rel="stylesheet" href="style.css">    
-<nav>
+<link rel="stylesheet" href="./pages/style.css">    
+<nav><img src="./img/code.png" height="50px" width="50px">
     <a href="index.html">Home</a>
-    <a href="college.html">Colleges</a>
-    <a href="project.html">Projects</a>
-    <a href="cources.html">Courses</a>
-    <a href="login.html">login</a>
-    <a href="contact.html">Contact</a>
+    <a href="./pages/project.html">Projects</a>
+    <a href="./pages/course.html">Courses</a>
+    <a href="./pages/login.html">login</a>
+    <a href="./pages/contact.html">Contact</a>
   </nav>
+  <h1 class="text" style="width: 400px;"> Quality courses at affordable pricing, trusted by 2000+ students.</h1>
+  <p class="text" style="width: 400px;">We help you to learn the latest technologies and tools to kickstart your career in tech.</p>
+  <h1 class="text" id="para" style="width: 400px;">Learn, Practice, Master and Achieve.</h1> 
+  <button id="btn1" class="text">🚀Courses</button>
+  <button id="btn2" class="text">🔒Login</button>
+  <section>
+    <h2 class="title">Why Choose Us?</h2>
+
+  <div class="card">
+    <img src="./images/trade.png" alt="affordable price"class="card-img"/>
+    <h1 class="card-title">Affordable Price</h1>
+    <p class="info">Flexible plans starting at ₹499/month,High-quality learning at student-friendly rates,
+        One-time payment, lifetime access
+</p>
+
+  </div>
+  <div class="card">
+    <img src="./images/webinar.png" alt="online interaction" class="card-img"/>
+    <h1 class="card-title">online interaction</h1>
+    <p class="info">2–3 live sessions every week with expert mentors,Real-time Q&A and discussions
+    Learn in small, interactive groups</p>
+  </div>
+  <div class="card">
+    <img src="./images/video-recorder.png" alt="recorded video of live classes"  class="card-img"/>
+    <h1 class="card-title" >Recorded lecture</h1>
+    <p class="info">Access all classes anytime, anywhere,
+    Download lectures for offline learning,Lifetime access to updated recordings
+</p>
+  
+  </div>
+  <div class="card">
+    <img src="./images/assignment.png" alt="Assiments"  class="card-img"/>
+    <h1 class="card-title">Assignments</h1>
+    <p class="info">Weekly assignments to test your skills,Hands-on exercises based on real-world scenarios,
+  Personalized feedback from instructors
+</p>
+
+  </div>
+  <div class="card">
+    <img src="./images/group.png" alt="Group project"  class="card-img"/>
+    <h1 class="card-title">Group project</h1>
+    <p class="info">Show teamwork and practical learning.Collaborate with peers on industry-style projects,
+Develop teamwork and communication skills,Projects reviewed by mentors
+</p>
+
+  </div>
+  <div class="card">
+    <img src="./images/resume.png" alt="Resume Building" class="card-img"/>
+    <h1 class="card-title">Resume Building</h1>
+    <p class="info">Show career-focused outcomes.Get professional guidance to build a job-ready resume,
+        Highlight projects and certifications,Personalized resume review from career experts
+</p>
+
+  </div>
+  </section><hr/>
+  <section>
+    <h2 class="title">Popular IT Courses</h2>
+    <div class="card">
+    <img src="./images/web-devlopment.png" alt="online interaction" class="card-imgs"/>
+    <h1 class="card-title">Full Stack Development</h1>
+    <p class="info">Learn HTML, CSS, JavaScript, React, Node.js.
+
+Build real-world websites and applications.
+
+Work on portfolio projects to showcase your skills.
+</p>
+  </div>
+    <div class="card">
+    <img src="./images/data.png" alt="online interaction" class="card-imgs"/>
+    <h1 class="card-title"> Data Science & Analytics
+</h1>
+    <p class="info">Master Python, SQL, Machine Learning, and Data Visualization.
+
+Hands-on projects using real datasets.
+
+Resume-ready portfolio for analyst/ML jobs.
+
+</p>
+  </div>
+  <div class="card">
+    <img src="./images/aws.png" alt="online interaction" class="card-imgs"/>
+    <h1 class="card-title">Cloud Computing (AWS, Azure, GCP)</h1>
+    <p class="info">Get certified in cloud platforms.
+
+Learn cloud deployment, DevOps, and server management.
+
+Industry projects included.
+
+</p>
+  </div>
+     <div class="card">
+    <img src="./images/cybersecurity.png" alt="online interaction" class="card-imgs"/>
+    <h1 class="card-title">Cybersecurity
+</h1>
+    <p class="info">Learn ethical hacking, network security, and data protection. 
+Practice with real-world security challenges.
+Career-ready skills for IT security roles.
+</p>
+  </div>
+  </section><hr/>
+  <section style="background: #1e3a8a; color: white; padding: 20px;">
+    <div class="title">
+     <h3>Our Contact Details:</h3>
+       Address: Pune, Maharashtra, India<br/>
+       <img class="img"src="./images/telephone-call.png"/>
+       Phone:+918329182875<br/>
+       <img class="img"src="./images/mail.png"/>
+        Email: info@mywebsite.com<br/>
+        <img class="image" src="./images/linkedin.png"/>
+        <img class="image" src="./images/facebook - Copy.png"/>
+        <img class="image" src="./images/instagram.png"/>
+        <img class="image" src="./images/twitter-logo.png"/>
+    </div>
+       
+  </section>
 </body>
 </html>
